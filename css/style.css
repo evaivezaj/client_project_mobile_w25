@@ -1,5 +1,10 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 2;
+}
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto Condensed',sans-serif;
     background-color: #00274c;
     color: #000000;
     margin-top: 20px;
@@ -80,12 +85,11 @@ nav a:hover, nav a:focus , .skip-link a:hover, .skip-link a:focus {
   }
 
 main , header , footer , body{
-    display: grid;
-    grid-template-columns: 1fr;
+    grid-column: 2;
 }
 
 body , main, section, footer{
-    grid-column: 1 / 3;
+    grid-column: 1 / 2;
 }
 
 .logo , .building , .backpack , .group , .sticky {
