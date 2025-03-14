@@ -76,8 +76,16 @@ nav{
 
  .skip-link {
     background: #ffcb0b;
-    text-align: right;
     font-size: 30px;
+}
+
+.skip-link a{
+    position: absolute;
+    top: -40px;
+}
+
+.skip-link a:focus {
+    top: 20px;
 }
 
 nav a:hover, nav a:focus , .skip-link a:hover, .skip-link a:focus {
